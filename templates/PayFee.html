@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fee Payment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../static/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/home.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<header>
+    Payments
+</header>
+
+<body>
+<div id="container">
+    <button class="btn"><img src="{{ url_for('static',filename='images/univf80.png')}}"><span class="btnf"> College fee</span></button>
+    <button class="btn"><img src="{{ url_for('static',filename='images/busf1.png')}}"><span class="btnf"> Bus fee</span></button>
+    <button class="btn"><img src="{{ url_for('static',filename='images/examf.png')}}"><span class="btnf"> Exam fee</span></button>
+    <button class="btn"><img src="{{ url_for('static',filename='images/hostelf.png')}}"><span class="btnf"> Hostel Fee</span></button>
+    <button class="btn"><img src="{{ url_for('static',filename='images/otherf.png')}}"><span class="btnf"> Others</span></button>
+</div>
+<div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Download Receipt</a></li>
+                            <li><a href="#">Status</a></li>
+                            <li><a href="#">Notifications</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">NBKRIST</a></li>
+                            <li><a href="#">IT</a></li>
+                            <!--<li><a href="#"></a></li>-->
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>N.B.K.R.Institute Of Science And Technology</h3>
+                        <p></p>
+                    </div>
+                    <div class="col item social">
+                        <img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/>
+                        <img src="https://img.icons8.com/color/48/000000/youtube-play.png"/>
+                        <img src="https://img.icons8.com/fluency/48/000000/twitter.png"/>
+                        <img src="https://img.icons8.com/color/50/000000/instagram-new.png"/>
+                        <img src="https://img.icons8.com/fluency/48/000000/gmail-new.png"/></div>
+                    </div>
+                <p class="copyright">IT Batch ©2021</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
