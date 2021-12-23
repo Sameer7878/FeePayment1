@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fee Payment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , max-scale=1.0,user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="../static/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/footer.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/home.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/responsive.css')}}">
+    <script type="text/javascript" src="{{ url_for('static',filename='javascript/home.js') }}"></script>
+</head>
+<header>
+    <div class="header">
+        <a href="#" class="logo" >@NBKRIST PAYMENTS</a>
+        <div class="header-right">
+            <a href="#">Sign Out</a>
+        </div>
+    </div>
+
+</header>
+
+<body>
+<div id="container">
+    <button class="btn" onclick="location.href='{{ url_for('college_fee') }}'"><img src="{{ url_for('static',filename='images/univf80.png')}}"><span class="btnf"> College fee</span></button>
+    <button class="btn" onclick="location.href='{{ url_for('bus_fee') }}'"><img src="{{ url_for('static',filename='images/busf1.png')}}"><span class="btnf"> Bus fee</span></button>
+    <button class="btn" onclick="location.href='{{ url_for('exam_fee') }}'"><img src="{{ url_for('static',filename='images/examf.png')}}"><span class="btnf"> Exam fee</span></button>
+    <button class="btn" onclick="location.href='{{ url_for('hostel_fee') }}'"><img src="{{ url_for('static',filename='images/hostelf.png')}}"><span class="btnf"> Hostel Fee</span></button>
+    <button class="btn" onclick="location.href='{{ url_for('other_fee') }}'"><img src="{{ url_for('static',filename='images/otherf.png')}}"><span class="btnf"> Others</span></button>
+</div>
+</body>
+<div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+            </ul>
+            <div class="social">
+                <a><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/></a>
+                <a><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
+                <a><img src="https://img.icons8.com/fluency/48/000000/twitter.png"/></a>
+                <a><img src="https://img.icons8.com/color/50/000000/instagram-new.png"/></a>
+                <a><img src="https://img.icons8.com/fluency/48/000000/gmail-new.png"/></a>
+            </div>
+            <p class="copyright">IT Batch © 2021</p>
+        </footer>
+    </div>
+</html>
