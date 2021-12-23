@@ -1,0 +1,93 @@
+@media only screen and (max-width: 620px) {
+    #container {
+        text-align: center;
+        width: auto;
+        padding: 0px;
+        margin: 10px;
+    }
+
+
+    .header .logo {
+        position: sticky;
+    }
+
+    .header a {
+        float: none;
+        position: sticky;
+        display: inline;
+        text-align: left;
+    }
+
+    .header a.logo {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .header-right {
+        float: right;
+    }
+
+    .btn .btnf {
+        float: left;
+        padding: 6px;
+        background-size: auto;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    img {
+        width: 25px;
+        float: left;
+
+    }
+
+
+    .footer-basic{
+        padding-bottom: 5px;
+        margin-top: 600px;
+    }
+    .footer-basic .social {
+        text-align:center;
+        margin-top: 10px;
+        padding-bottom: 1px;
+        margin-left: 180px;
+}
+        .student-profile .card .card-header .profile_img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border: 10px solid #ccc;
+        border-radius: 50%;
+
+
+    }
+       .card-header{
+           margin-right: 100px;
+       }
+    .student-profile .card {
+  border-radius: 10px;
+    display: inline-flex;
+}
+
+.student-profile .card .card-header .profile_img {
+  width: 150px;
+  height: 150px;
+  margin-left: 100px;
+
+
+}
+
+.student-profile .card h3 {
+  font-size: 15px;
+  font-weight: 700;
+    color: black;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+  font-size: 12px;
+  padding:0;
+  color: #000;
+}
+
+}
